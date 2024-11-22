@@ -126,3 +126,7 @@ writeln('Дежурные: ', student1, ' и ', student2); end.
 if a >= b then begin writeln('Ошибка: a должно быть меньше b.'); exit; end;
 
 Randomize; for i := 1 to 5 do begin randomReal := a + Random * (b - a); // Генерация случайного вещественного числа в [a, b) writeln('Случайное вещественное число ', i, ': ', randomReal:0:2); end; end.
+
+
+
+
